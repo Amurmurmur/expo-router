@@ -1,9 +1,9 @@
-import { Text, View } from 'tamagui'
+import { Text, View } from 'react-native'
 
 export default function TabOneScreen() {
   return (
-    <View flex={1} alignItems="center">
-      <Text fontSize={20}>Tab One</Text>
+    <View style={{ flex: 1, alignItems: "center", justifyContent: 'center' }} >
+      <Text style={{ fontSize: 50, color: 'red'}}>Tab One</Text>
     </View>
   )
 }
